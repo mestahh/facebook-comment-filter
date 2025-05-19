@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook Comment Filter",
+  "version": "1.0",
+  "description": "Hides Facebook comments from users in your blacklist.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://www.facebook.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Comment Filter Settings"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
