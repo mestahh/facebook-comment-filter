@@ -7,8 +7,8 @@ Ez a Chrome-bővítmény segít **elrejteni a Facebookon azokat a kommenteket**,
 ## 🔧 Telepítés lépései
 
 1. **Töltsd le vagy klónozd ezt a projektet** a számítógépedre:
-   - [Letöltés ZIP-ben](https://github.com/felhasznalo/facebook-comment-filter/archive/refs/heads/main.zip)
-   - vagy `git clone https://github.com/felhasznalo/facebook-comment-filter.git`
+   - [Letöltés ZIP-ben](https://github.com/mestahh/facebook-comment-filter/archive/refs/heads/main.zip)
+   - vagy `git clone https://github.com/mestahh/facebook-comment-filter.git`
 
 2. **Nyisd meg a Chrome böngészőt**, és menj erre az oldalra:  
    `chrome://extensions/`
